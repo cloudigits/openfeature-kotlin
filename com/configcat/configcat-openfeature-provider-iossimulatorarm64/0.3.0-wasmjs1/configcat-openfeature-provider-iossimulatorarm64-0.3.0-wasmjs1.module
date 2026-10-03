@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../configcat-openfeature-provider/0.3.0-wasmjs1/configcat-openfeature-provider-0.3.0-wasmjs1.module",
+    "group": "com.configcat",
+    "module": "configcat-openfeature-provider",
+    "version": "0.3.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-iosSimulatorArm64Main-0.3.0-wasmjs1.klib",
+          "url": "configcat-openfeature-provider-iossimulatorarm64-0.3.0-wasmjs1.klib",
+          "size": 21209,
+          "sha512": "9023e85779da64463c2de7b682f2eca041c60f919aa4ead8ff6bb3b42192f974ae85dbe9341eee14beba40e33cc35beb9c67a01e3aff370b58f44969cce849e3",
+          "sha256": "163188168733c9929a3f5718455ff5bcd77bd21f60dc13b78168d24402e0a0bb",
+          "sha1": "ddf738f1962eecd31c58469f0de597da843fb5a0",
+          "md5": "ea10f509ea88fff908ee9c3d45702b3b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-iossimulatorarm64-0.3.0-wasmjs1-sources.jar",
+          "url": "configcat-openfeature-provider-iossimulatorarm64-0.3.0-wasmjs1-sources.jar",
+          "size": 3166,
+          "sha512": "7e97e37784e8ec7bd6aff947f64f31c169543f474e4286211729087d767356114fdfaf69428e885322f4317fc3d1fac140e7da3859f582c8fd6922c52d098800",
+          "sha256": "8ea51cfeb00ff42d6f5df19fe8980f4962f7e6519e4a3160218cdd2d243ea2da",
+          "sha1": "ebe474b3f99ecc579c689c264a86066b454b6f5c",
+          "md5": "11d32f88714648235dbc9b577e8b99b0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-iossimulatorarm64-0.3.0-wasmjs1-metadata.jar",
+          "url": "configcat-openfeature-provider-iossimulatorarm64-0.3.0-wasmjs1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

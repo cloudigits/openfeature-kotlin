@@ -1,0 +1,212 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../configcat-openfeature-provider/0.3.0-wasmjs1/configcat-openfeature-provider-0.3.0-wasmjs1.module",
+    "group": "com.configcat",
+    "module": "configcat-openfeature-provider",
+    "version": "0.3.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-release.aar",
+          "url": "configcat-openfeature-provider-android-0.3.0-wasmjs1.aar",
+          "size": 17149,
+          "sha512": "e59158c410577a5fae4214d5525e90cd9c25dd9090dbd44598f990f5bae75811b99aa4f36982cc2e107a25028b1c2597bcfa3862debdfb3ccdb265a1ef517af2",
+          "sha256": "2d741dc0f17423a570a0bb76f1f3cd22e5e3e2a6754fec84e81796a77af0a9d6",
+          "sha1": "06c06c0d84d7bd103b8929b0aefbd7810d4f2b4f",
+          "md5": "68bea090cac86c28bf65de5d34a13a28"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-release.aar",
+          "url": "configcat-openfeature-provider-android-0.3.0-wasmjs1.aar",
+          "size": 17149,
+          "sha512": "e59158c410577a5fae4214d5525e90cd9c25dd9090dbd44598f990f5bae75811b99aa4f36982cc2e107a25028b1c2597bcfa3862debdfb3ccdb265a1ef517af2",
+          "sha256": "2d741dc0f17423a570a0bb76f1f3cd22e5e3e2a6754fec84e81796a77af0a9d6",
+          "sha1": "06c06c0d84d7bd103b8929b0aefbd7810d4f2b4f",
+          "md5": "68bea090cac86c28bf65de5d34a13a28"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-android-0.3.0-wasmjs1-sources.jar",
+          "url": "configcat-openfeature-provider-android-0.3.0-wasmjs1-sources.jar",
+          "size": 3166,
+          "sha512": "7e97e37784e8ec7bd6aff947f64f31c169543f474e4286211729087d767356114fdfaf69428e885322f4317fc3d1fac140e7da3859f582c8fd6922c52d098800",
+          "sha256": "8ea51cfeb00ff42d6f5df19fe8980f4962f7e6519e4a3160218cdd2d243ea2da",
+          "sha1": "ebe474b3f99ecc579c689c264a86066b454b6f5c",
+          "md5": "11d32f88714648235dbc9b577e8b99b0"
+        }
+      ]
+    }
+  ]
+}

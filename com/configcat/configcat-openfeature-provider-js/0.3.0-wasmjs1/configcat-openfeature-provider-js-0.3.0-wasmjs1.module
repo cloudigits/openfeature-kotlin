@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../configcat-openfeature-provider/0.3.0-wasmjs1/configcat-openfeature-provider-0.3.0-wasmjs1.module",
+    "group": "com.configcat",
+    "module": "configcat-openfeature-provider",
+    "version": "0.3.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-js-0.3.0-wasmjs1.klib",
+          "url": "configcat-openfeature-provider-js-0.3.0-wasmjs1.klib",
+          "size": 20594,
+          "sha512": "da7b908b0eea9d938272b803e656231b6fccf7a5c8c21dce73ded2a1f46a0495ae96266502bbd85b2b471e4b33ab90f2ffc7c98b33501c6622d93e1acfd129bd",
+          "sha256": "2e40764cfe3e9f8ef133846d1ab77a087c434d68a60115dbafc9471987ed45c7",
+          "sha1": "bed8d2830edb8cc9262d6b2438502debb9c95077",
+          "md5": "e3754f71769ef638d948b951d36a06cc"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "com.configcat",
+          "module": "configcat-kotlin-client",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "dev.openfeature",
+          "module": "kotlin-sdk",
+          "version": {
+            "requires": "0.9.0-wasmjs1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-js-0.3.0-wasmjs1.klib",
+          "url": "configcat-openfeature-provider-js-0.3.0-wasmjs1.klib",
+          "size": 20594,
+          "sha512": "da7b908b0eea9d938272b803e656231b6fccf7a5c8c21dce73ded2a1f46a0495ae96266502bbd85b2b471e4b33ab90f2ffc7c98b33501c6622d93e1acfd129bd",
+          "sha256": "2e40764cfe3e9f8ef133846d1ab77a087c434d68a60115dbafc9471987ed45c7",
+          "sha1": "bed8d2830edb8cc9262d6b2438502debb9c95077",
+          "md5": "e3754f71769ef638d948b951d36a06cc"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "configcat-openfeature-provider-js-0.3.0-wasmjs1-sources.jar",
+          "url": "configcat-openfeature-provider-js-0.3.0-wasmjs1-sources.jar",
+          "size": 3166,
+          "sha512": "7e97e37784e8ec7bd6aff947f64f31c169543f474e4286211729087d767356114fdfaf69428e885322f4317fc3d1fac140e7da3859f582c8fd6922c52d098800",
+          "sha256": "8ea51cfeb00ff42d6f5df19fe8980f4962f7e6519e4a3160218cdd2d243ea2da",
+          "sha1": "ebe474b3f99ecc579c689c264a86066b454b6f5c",
+          "md5": "11d32f88714648235dbc9b577e8b99b0"
+        }
+      ]
+    }
+  ]
+}
