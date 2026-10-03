@@ -113,6 +113,14 @@ dokka {
     }
 }
 
+publishing {
+    repositories {
+        maven(layout.buildDirectory.dir("mvn-repo")) {
+            name = "localRepo"
+        }
+    }
+}
+
 mavenPublishing {
     publishToMavenCentral()
     if (providers.environmentVariable("ORG_GRADLE_PROJECT_signingInMemoryKey").isPresent &&

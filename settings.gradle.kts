@@ -11,6 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://raw.githubusercontent.com/cloudigits/kotlin-sdk/mvn-repo")
         mavenLocal()
     }
 }
