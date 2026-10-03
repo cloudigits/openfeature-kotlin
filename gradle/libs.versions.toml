@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.2.10"
-android-gradle-plugin = "8.11.1"
+kotlin = "2.4.20"
+android-gradle-plugin = "8.13.2"
 configcat = "5.1.0"
 openfeature = "0.9.0"
 ktor = "3.2.3"
@@ -8,7 +8,7 @@ kotlinx-serialization = "1.9.0"
 kotlinx-coroutines= "1.10.2"
 ktlint = "13.1.0"
 maven-publish = "0.34.0"
-dokka = "2.0.0"
+dokka = "2.2.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
